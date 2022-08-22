@@ -1,0 +1,19 @@
+name = "PINO"
+uuid = "c636e65c-ddac-40c2-bdea-52e74accebec"
+
+[deps]
+DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
+DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+NeuralOperators = "ea5c82af-86e5-48da-8ee1-382d6ad7af4b"
+NeuralPDE = "315f7962-48a3-4962-8226-d0f33b1235f0"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
